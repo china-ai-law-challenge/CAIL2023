@@ -2,7 +2,7 @@
  * @Author: lihaitao
  * @Date: 2023-08-24 16:50:18
  * @LastEditors: Do not edit
- * @LastEditTime: 2023-08-24 16:52:40
+ * @LastEditTime: 2023-08-24 21:36:42
  * @FilePath: /lht/GitHub_code/CAIL2023/sfdmx/readme.md
 -->
 # CAIL 2023 司法大模型赛道
@@ -40,7 +40,7 @@
 
 调用代码示例:
 
-'''
+```
 import requests
 
 api_url = "https://api.example.com/model"
@@ -49,6 +49,6 @@ data = {"text": "这是一个示例文本，用于测试您的大模型。"}
 response = requests.post(api_url, json=data)
 result = response.json()["result"]
 print("模型处理结果:", result)
-'''
+```
 
 请确保您的API具备稳定性和可靠性，以便在测试期间能够正常访问和使用。
